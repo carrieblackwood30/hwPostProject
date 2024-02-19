@@ -40,7 +40,7 @@ fetch('https://jsonplaceholder.typicode.com/posts/')
                 fetch('https://jsonplaceholder.typicode.com/posts' ,{
                     method: "PUT",
                     body: JSON.stringify({
-                        // title: prompt('edited head'),
+                        // title: prompt('edited head'), 
                         // body: prompt('edited body')
                     })
                 }).then(response =>{
@@ -49,6 +49,7 @@ fetch('https://jsonplaceholder.typicode.com/posts/')
                         createHeading.append(createCloseBtn)
                         createBody.textContent = prompt('edited body')
                         createHeading.append(createBody)
+                        createHeading.append(EditPostBtn)
                 })
             })
         }
@@ -95,6 +96,7 @@ createPostBtn.addEventListener("click", () =>{
                 posts.append(createHeading)
                 createBody.textContent = prompt('edited body: ')
                 createHeading.append(createBody)
+                createHeading.append(EditPostBtn)
                 createHeading.append(createCloseBtn)
             })
 
