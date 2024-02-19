@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+.logo{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: darkgreen;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.createPostBtn{
+    margin: 0 2rem 2rem 1rem;
+    padding:  .5rem 1rem;
+    border-radius: 1rem;
+    background-color: darkgreen;
+    color: gold;
+}
+
+.postContainer, #postContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.title{
+    border: 1px solid brown;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 10rem;
+    background-color: darkgreen;
+    color: gold;
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.closeBtn{
+    border-radius: 50%;
+    padding: .2rem .4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: .5rem;
+    background-color: goldenrod;
+    color: white;
+}
+
+.editBtn{
+    border-radius: 1rem;
+    padding: .1rem .4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: .5rem;
+    background-color: goldenrod;
+    color: white;
+}
+
+.body{
+    color: ghostwhite;
+    font-size: .9rem;
+    border-top: 1px solid white;
+    padding-top: 1rem;
+}
